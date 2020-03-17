@@ -1,4 +1,4 @@
-import ast
+ import ast
 import inspect
 import json
 import os
@@ -221,3 +221,11 @@ def template_extends(name):
 def template_import(name):
     for node in parsed_content(name).find_all(nodes.FromImport):
         return node.template.value + ':' + ':'.join(node.names) + ':' + str(node.with_context)
+
+
+
+"Adding new line to this file"
+
+"Changing the gfile againe" hrrps://git-scm.com/download/win"
+
+"modified"
